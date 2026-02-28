@@ -4,10 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Задание №1</title>
      <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        .rif-ok {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border: 1px solid #ccc;
         }
         body 
         {
@@ -42,33 +44,42 @@
                 text-align: center;
                 padding: 0 15px;
         }
-        }
     </style>
 </head>
 <body>
     <header class="header">
         <h1 class="header-title">Домашнее задание №1</h1>
     </header>
-    <ol>
-<li><a>С помощью команды ping на учебном сервере узнать IP-адрес веб-сервера kubsu.ru. Команда ping используется для проверки доступности узла в сети и качества соединения с ним. Процесс продолжается до тех порпока вы не остановите его командой Ctrl + C.</a></li>
-  <img src="./r4.png" alt="" class="rif-ok">
-<li><a>С помощью команды nslookup узнать A-записи и MX-записи домена kubsu.ru и kubsu-dev.ru. Она отправляет запросы к DNS-серверам, чтобы узнать IP-адрес по доменному имени или наоборотдомен по IP-адресу.</a></li>
-  <img src="./r3.png" alt="" class="rif-ok">
-<li><a>С помощью команды whois узнать дату регистрации домена kubsu.ru и kubsu-dev.ru. Команда whois в консоли сервера — это сетевой инструмент для получения регистрационных данных о доменных именах, IP-адресах и автономных системах.</a></li>
-  <img src="./r2.png" alt="" class="rif-ok">
-<li><a>C помощью SSH склонировать репозитарий со скриншотами и страницей в каталог www. Это делается командой git clone, на скриншоте пример импользования команды git pull, которая обновляет каталог файлов.</a></li>
-        <img src="./r1.png" alt="" class="rif-ok">
-<li><a>С помощью программы FileZilla или любого другого клиента SFTP соединиться с учебным сервером с вашим логином и паролем по протоколу SFTP и скопировать на локальный компьютер файлы задания из каталога www.</a></li>
-        <img src="./r5.png" alt="" class="rif-ok">
-     </ol>
+    <main>
+        <ol>
+            <li>
+                <a>С помощью команды ping на учебном сервере узнать IP-адрес веб-сервера kubsu.ru.</a>
+                <img src="./r4.png" alt="Скриншот ping" class="rif-ok">
+            </li>
+            <li>
+                <a>С помощью команды nslookup узнать A-записи и MX-записи домена kubsu.ru и kubsu-dev.ru.</a>
+                <img src="./r3.png" alt="Скриншот nslookup" class="rif-ok">
+            </li>
+            <li>
+                <a>С помощью команды whois узнать дату регистрации домена kubsu.ru и kubsu-dev.ru.</a>
+                <img src="./r2.png" alt="Скриншот whois" class="rif-ok">
+            </li>
+            <li>
+                <a>C помощью SSH склонировать репозитарий со скриншотами и страницей в каталог www.</a>
+                <img src="./r1.png" alt="Скриншот git" class="rif-ok">
+            </li>
+            <li>
+                <a>С помощью программы FileZilla или любого другого клиента SFTP соединиться с учебным сервером.</a>
+                <img src="./r5.png" alt="Скриншот FileZilla" class="rif-ok">
+            </li>
+        </ol>
+    </main>
 <footer class="footer">
         <div class="footer-wrapper">
             <p class="footer-cop">(с) Алборова Полина</p>
         </div>
 </footer>
 </body>
-
-
 
 
 
